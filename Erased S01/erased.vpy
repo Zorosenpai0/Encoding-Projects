@@ -7,9 +7,8 @@ from vsmasktools import KirschTCanny
 from dfttest2 import DFTTest, Backend
 from vsdeband import F3kdb, AddNoise
 from vsmasktools import FDoG
-from vsdehalo import dehalomicron, fine_dehalo, dehalo_sigma
+from vsdehalo import fine_dehalo, dehalo_sigma
 from vsdenoise import Prefilter
-import awsmfunc as awf
 
 # Loading Video
 src = core.dgdecodenv.DGSource(r'Boku dake ga Inai Machi S01E01 Flashing Before My Eyes 1080p Blu-ray Remux AVC FLAC 2.0-E.N.D.dgi')
